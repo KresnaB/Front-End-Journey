@@ -68,7 +68,7 @@ html{
     .nav-list{
       width: 90%;
       margin: 0 auto;
-      height: 35%;
+      height: 250px;
       overflow: auto;
       border: 3px solid #8c8c8c;
       border-radius: 5px;
