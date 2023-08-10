@@ -1,6 +1,6 @@
 # Front-End-Journey
 My personal project while learning front end.
-The project problem set is availabel @freeCodeCamp learning page.
+The project problem set is available @freeCodeCamp learning page.
 (The course I take [https://www.freecodecamp.org/learn/2022/responsive-web-design])
 
 ## This repo (/Responsive-Web-Design) include 5 project
