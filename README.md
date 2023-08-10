@@ -4,8 +4,8 @@ The project problem set is available @freeCodeCamp learning page.
 (The course I take [https://www.freecodecamp.org/learn/2022/responsive-web-design])
 
 ## This repo (/Responsive-Web-Design) include 5 project
-- Survey Form
-- Tribute Page
+- Survey Form [https://servey-form-fcc.netlify.app/]
+- Tribute Page [https://mohhatta-tribute-page.netlify.app/]
 - Documentation Page
 - Product Landing Page (Coming Soon)
 - Portofolio Page (Coming Soon)
