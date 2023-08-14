@@ -1,76 +1,76 @@
-html{
-    font-family: tahoma , sans-serif;
-    box-sizing: border-box;
+html {
+  font-family: tahoma, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.sidebar {
+  width: 297px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  border-right: 3px solid #8c8c8c;
+}
+nav > header {
+  margin: 0 auto;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 26px;
+}
+section > header {
+  font-weight: bold;
+  font-size: 20px;
+}
+.sidebar header {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+}
+.nav-list {
+  display: flex;
+  flex-direction: column;
+}
+nav .nav-link {
+  text-decoration: none;
+  color: #5c5c5c;
+  font-size: 18px;
+  border-top: 1px solid #5c5c5c;
+  padding: 10px 20px;
+}
+main {
+  margin-left: 300px;
+}
+.main-section {
+  padding: 20px 10px 10px 20px;
+}
+h2 {
+  font-size: 24px;
+}
+article {
+  margin-left: 10px;
+}
+.code-container {
+  margin-left: 10px;
+  background-color: #e6e6e6;
+  padding: 10px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+    height: auto;
   }
-  body{
+  main {
     margin: 0;
-  } 
-  .sidebar{
-    width: 297px;
-    position: fixed;
-    height: 100%;
+  }
+  .nav-list {
+    width: 90%;
+    margin: 0 auto;
+    height: 250px;
     overflow: auto;
-    border-right: 3px solid #8c8c8c;
-  }
-  nav>header{
-    margin: 0 auto;
-    padding: 10px 0;
-    font-weight: bold;
-    font-size: 26px;
-  }
-  section>header{
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .sidebar header{
-    margin: 0 auto;
-    text-align: center;
-    font-size: 14px;
-  }
-  .nav-list{
-    display: flex;
-    flex-direction: column;
-  }
-  nav .nav-link{
-    text-decoration: none;
-    color: #5c5c5c;
-    font-size: 18px;
-    border-top: 1px solid #5c5c5c;
-    padding: 10px 20px;
-  }
-  main{
-    margin-left: 300px;
-  }
-  .main-section{
-    padding: 20px 10px 10px 20px;
-  }
-  h2{
-    font-size: 24px;
-  }
-  article{
-    margin-left: 10px;
-  }
-  .code-container{
-    margin-left: 10px;
-    background-color: #e6e6e6;
-    padding: 10px;
+    border: 3px solid #8c8c8c;
     border-radius: 5px;
   }
-  @media screen and (max-width: 700px){
-    .sidebar{
-      width: 100%;
-      position: relative;
-      height: auto;
-    }
-    main{
-      margin: 0;
-    }
-    .nav-list{
-      width: 90%;
-      margin: 0 auto;
-      height: 250px;
-      overflow: auto;
-      border: 3px solid #8c8c8c;
-      border-radius: 5px;
-    }
-  }
+}
