@@ -7,7 +7,7 @@ The project problem set is available @freeCodeCamp learning page.
 - Survey Form [https://servey-form-fcc.netlify.app/]
 - Tribute Page [https://mohhatta-tribute-page.netlify.app/]
 - Documentation Page [https://js-documentation-fcc.netlify.app/]
-- Product Landing Page (Coming Soon)
+- Product Landing Page [https://kubikusnack.netlify.app/]
 - Portofolio Page (Coming Soon)
 
 ## What I learn from the cource
