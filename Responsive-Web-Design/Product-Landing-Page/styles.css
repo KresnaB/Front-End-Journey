@@ -52,8 +52,13 @@ nav a {
   text-decoration: none;
   color: white;
 }
+.nav-link{
+  border: 2px solid white;
+  padding: 2px 5px;
+}
 nav a:hover {
   color: lightgrey;
+  border: 2px solid lightgrey;
 }
 .container {
   max-width: 1000px;
@@ -195,22 +200,20 @@ footer {
 .info-link:hover {
   color: lightgrey;
 }
-@media only screen and (max-width: 400px) {
-  .icon {
-    display: none;
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
   }
-  .flavor-content {
-    text-align: center;
-  }
-  .flavor {
-    margin: 0.5rem auto;
-  }
-}
-@media only screen and (max-width: 447px) {
   .credential {
-    padding-top: 175px;
+    padding-top: 200px;
   }
   html {
     scroll-padding-top: 11.5rem;
   }
+  nav > ul {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
 }
+
