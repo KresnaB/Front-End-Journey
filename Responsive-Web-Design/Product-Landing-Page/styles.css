@@ -22,6 +22,7 @@ header {
   flex-wrap: wrap;
   position: fixed;
   color: white;
+  z-index: 1000;
 }
 .logo-container {
   display: flex;
@@ -52,13 +53,19 @@ nav a {
   text-decoration: none;
   color: white;
 }
-.nav-link{
+.nav-link {
   border: 2px solid white;
   padding: 2px 5px;
 }
 nav a:hover {
   color: lightgrey;
   border: 2px solid lightgrey;
+}
+nav > ul li {
+  transition: transform 0.3s ease-out;
+}
+nav > ul li:hover {
+  transform: scale(1.2, 1.2);
 }
 .container {
   max-width: 1000px;
@@ -149,6 +156,10 @@ iframe {
   height: 350px;
   border: 2px solid #862b0d;
   border-radius: 5px;
+  transition: transform 0.3s ease-out;
+}
+.card:hover {
+  transform: translateY(-10px);
 }
 div > .variant {
   width: 100%;
@@ -216,4 +227,3 @@ footer {
     gap: 10px;
   }
 }
-
